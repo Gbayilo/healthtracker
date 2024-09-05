@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Health Companion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Health Companion</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="health-tips.html">Health Tips</a></li>
+                    <li><a href="tracker.html">Health Tracker</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Your Health Companion!</h2>
+            <p>Your ultimate guide for daily motivation, health tips, and ways to make the right health choices.</p>
+            <a href="tracker.html" class="cta-button">Track Your Health</a>
+            <button class="cta-button" id="open-bmi-modal">Calculate Your BMI</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <h3>Daily Health Tips</h3>
+                <p>Receive valuable tips to improve your health every day.</p>
+            </div>
+            <div class="feature">
+                <h3>Daily Motivation</h3>
+                <p>Get inspired with daily motivational quotes and advice.</p>
+            </div>
+            <div class="feature">
+                <h3>Health Tracking</h3>
+                <p>Track your daily water intake, activity levels, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="daily-tracker">
+        <div class="container">
+            <h2>Daily Health Tracker</h2>
+            <form id="tracker-form">
+                <label for="water-intake">Water Intake (liters):</label>
+                <input type="number" id="water-intake" step="0.1" required>
+                <label for="activity-level">Activity Level (minutes):</label>
+                <input type="number" id="activity-level" required>
+                <button type="button" onclick="logHealthData()">Log Data</button>
+            </form>
+            <div id="tracker-result">
+                <h3>Daily Log</h3>
+                <ul id="log-list">
+                    <!-- Entries will appear here -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Health Companion. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- BMI Modal -->
+    <div id="bmi-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>BMI Calculator</h2>
+            <p>To calculate your BMI, click the link below:</p>
+            <a href="bmi-calculator.html" class="cta-button">Go to BMI Calculator</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
