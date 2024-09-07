@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Personalized Advice - Your Health Companion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Health Companion</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bmi_calculator.html">BMI Calculator</a></li>
+                    <li><a href="tracking.html">Health Tracking</a></li>
+                    <li><a href="tips.html">Health Tips</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Personalized Advice Section -->
+    <section id="personalized-advice" class="personalized-advice">
+        <div class="container">
+            <h2>Get Personalized Health Advice</h2>
+            <p>Sign up to receive tailored health tips and recommendations based on your personal health data.</p>
+            <p>Create an account to start your journey towards a healthier lifestyle!</p>
+            
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="cta-button">Create Account</button>
+            </form>
+            
+            <div id="confirmation-message" class="hidden">
+                <h3>Thank you for signing up!</h3>
+                <p>A confirmation email has been sent to your address. Please check your inbox and follow the instructions to confirm your account.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Health Companion. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="get-advice.js"></script>
+</body>
+</html>

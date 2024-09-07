@@ -1,0 +1,206 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Intro Section */
+.intro {
+    position: relative;
+    height: 500px; /* Adjust based on your design needs */
+}
+
+.intro-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ensures text is visible over the image */
+}
+
+.intro-text h2 {
+    font-size: 2.5em; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 1.2em; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.intro-text .cta-button {
+    background-color: #00cc99;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.intro-text .cta-button:hover {
+    background-color: #009973;
+}
+
+.intro-content .cta-button:hover {
+    background-color: #009973;
+}
+
+.cover-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.cover-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+    color: #0066cc;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.feature h3 {
+    margin-top: 20px;
+    color: #00cc99;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+.team-links {
+    margin-top: 20px;
+}
+
+.team-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #00cc99;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.team-links a:hover {
+    background-color: #009973;
+}
+
+/* Video Section */
+.video-section {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.video-section h2 {
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
