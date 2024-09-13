@@ -10,7 +10,7 @@
 - [License](#license)
 
 ## Introduction
-Your Health Companion is developed to empower users to take charge of their health journey. It combines practical tools for tracking health metrics with expert advice and personalized recommendations.
+Your Health Companion is developed to empower users to take charge of their health journey. It combines practical tools for tracking health metrics with  personalized advice and recommendations.
 
 ## Features
 - **BMI Calculator:** Calculate Body Mass Index and get health status (e.g., underweight, normal, overweight, obese) along with personalized advice.
